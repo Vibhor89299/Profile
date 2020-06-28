@@ -1,0 +1,113 @@
+body 
+{ 
+    margin 0px;
+    padding 0px;
+    background-image:url(Back.jpeg);
+    background-size: 100% 100%;
+    
+}
+
+.Profile_container
+{
+font-family: sans-serif;
+margin-top: 0px;
+width: 218px;
+height 430px;
+background:#fff;
+border-radius: 6px;
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50% ,-50%);
+box-shadow: 0px 2px 10px 2px black;
+text-align: center;
+padding: 20px;
+background: rgba(0, 0, 0, 0.4); 
+
+color:whitesmoke;
+}
+.profile_heading p
+{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 25px;
+    color:white;
+}
+.profile_image
+{
+ width:150px;
+ height:150px;
+ object-fit:cover;
+ border-radius: 50%;
+margin: 0 auto 20px auto;
+display:block;
+}
+
+
+.skills li
+{ 
+    font-family: cursive;
+    font-size:10px;
+    color:green;
+    display:inline-block;
+}
+
+.profile_title
+{
+    font-size: 13px;
+    
+
+
+    
+}
+.profile_name
+{
+    font-size: 18px;
+    text-decoration-style: solid;
+}
+.o
+{
+ 
+  background: rgba(255, 255, 255, 0.2);  
+    border-radius: 12px;
+   // float:left;
+    
+    
+}
+
+.t
+{
+   background: rgba(255, 255, 255, 0.2);  
+    border-radius: 12px;
+    //float: left;
+    
+}
+
+.th
+{
+    background: rgba(255, 255, 255, 0.2);  
+    border-radius: 12px;
+    //float:right;
+    margin-right:25px;
+}
+
+.icon_tray li
+{
+    display: inline-block;
+    font-size: 10px;
+    float: left;
+    margin: 4px;
+        
+}
+
+.Button button
+{
+    background: green;
+    box-shadow: 1px 0px 10px 0px black;
+    
+}
+Button:hover 
+{
+    background-color : lightgreen; 
+}
